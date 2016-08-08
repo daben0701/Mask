@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>mask</title>
+		<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="mask.js"></script>
+		<link type="text/css" rel="stylesheet" href="mask.css">
+	</head>
+	<body>
+		<input type="button" id="mask" value="È«ÆÁmask">
+		<script>
+			$("#mask").click(function(){
+				var mask = new Mask();
+				mask.init();
+			});
+		</script>
+	</body>
+</html>
